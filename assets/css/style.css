@@ -1,4 +1,11 @@
 
+/* Reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
 .blue-box {
     background-color: lightblue;
 }
@@ -9,12 +16,17 @@
 
 .blue-box,
 .green-box {
-    outline:1px solid white;
+    border:2px solid white;
     min-height:100px;
     text-align:center;
     line-height:100px;
     color:white;
     font-size:40px;
+}
+
+.spacer {
+    min-height:80px;
+    min-width:1px;
 }
 
 .my-row > .my-col-1 > .blue-box:after {
