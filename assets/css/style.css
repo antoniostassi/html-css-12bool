@@ -1,0 +1,25 @@
+
+.blue-box {
+    background-color: lightblue;
+    outline:1px solid white;
+    min-height:100px;
+    text-align:center;
+    vertical-align: 100%;
+    color:white;
+    font-size:50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-row > .my-col-1 > .blue-box:after {
+    content: "1";
+}
+
+.my-row > .my-col-2 > .blue-box:after {
+    content: "2";
+}
+
+.my-row > .my-col-5 > .blue-box:after {
+    content: "5";
+}
