@@ -1,15 +1,20 @@
 
 .blue-box {
     background-color: lightblue;
+}
+
+.green-box {
+    background-color: lightgreen;
+}
+
+.blue-box,
+.green-box {
     outline:1px solid white;
     min-height:100px;
     text-align:center;
-    vertical-align: 100%;
+    line-height:100px;
     color:white;
-    font-size:50px;
-    display:flex;
-    justify-content: center;
-    align-items: center;
+    font-size:40px;
 }
 
 .my-row > .my-col-1 > .blue-box:after {
@@ -20,6 +25,62 @@
     content: "2";
 }
 
+.my-row > .my-col-3 > .blue-box:after {
+    content: "3";
+}
+
 .my-row > .my-col-5 > .blue-box:after {
     content: "5";
+}
+
+.my-row > .my-col-6 > .blue-box:after {
+    content: "6";
+}
+
+.my-row > .my-col-8 > .blue-box:after {
+    content: "8";
+}
+
+.my-row > .my-col-12 > .blue-box:after {
+    content: "12";
+}
+
+.my-row > .my-col-1 > .green-box:after {
+    content: "1";
+}
+
+.my-row > .my-col-2 > .green-box:after {
+    content: "2";
+}
+
+.my-row > .my-col-3 > .green-box:after {
+    content: "3";
+}
+
+.my-row > .my-col-5 > .green-box:after {
+    content: "5";
+}
+
+.my-row > .my-col-6 > .green-box:after {
+    content: "6";
+}
+
+.my-row > .my-col-8 > .green-box:after {
+    content: "8";
+}
+
+.my-row > .my-col-12 > .green-box:after {
+    content: "12";
+}
+
+.padd20 {
+    padding:20px;
+}
+
+.my-row .blue-box.padd20:after{
+    content:"";
+}
+
+.my-row .green-box.padd20:after{
+    content:"";
 }
