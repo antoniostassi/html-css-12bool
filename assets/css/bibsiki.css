@@ -1,3 +1,96 @@
 /* This is a Framework */
 /* Yes it is. */
 /* FOR REAL */
+
+/* Columns */
+
+.my-col-1 {
+    flex-basis: calc((100% / 12) * 1);
+}
+.my-col-2 {
+    flex-basis: calc((100% / 12) * 2);
+}
+.my-col-3 {
+    flex-basis: calc((100% / 12) * 3);
+}
+.my-col-4 {
+    flex-basis: calc((100% / 12) * 4);
+}
+.my-col-5 {
+    flex-basis: calc((100% / 12) * 5);
+}
+.my-col-6 {
+    flex-basis: calc((100% / 12) * 6);
+}
+.my-col-7 {
+    flex-basis: calc((100% / 12) * 7);
+}
+.my-col-8 {
+    flex-basis: calc((100% / 12) * 8);
+}
+.my-col-9 {
+    flex-basis: calc((100% / 12) * 9);
+}
+.my-col-10 {
+    flex-basis: calc((100% / 12) * 10);
+}
+.my-col-11 {
+    flex-basis: calc((100% / 12) * 11);
+}
+.my-col-12 {
+    flex-basis: 100%;
+}
+
+/* Offset to create white spaces */
+
+.my-col-offset-0 {
+    margin-left: 0;
+}
+
+.my-col-offset-1 {
+    margin-left: calc((100% / 12) * 1);
+}
+
+.my-col-offset-2 {
+    margin-left: calc((100% / 12) * 2);
+}
+
+.my-col-offset-3 {
+    margin-left: calc((100% / 12) * 3);
+}
+
+.my-col-offset-4 {
+    margin-left: calc((100% / 12) * 4);
+}
+
+.my-col-offset-5 {
+    margin-left: calc((100% / 12) * 5);
+}
+
+.my-col-offset-6 {
+    margin-left: calc((100% / 12) * 6);
+}
+
+.my-col-offset-7 {
+    margin-left: calc((100% / 12) * 7);
+}
+
+.my-col-offset-8 {
+    margin-left: calc((100% / 12) * 8);
+}
+
+.my-col-offset-9 {
+    margin-left: calc((100% / 12) * 9);
+}
+
+.my-col-offset-10 {
+    margin-left: calc((100% / 12) * 10);
+}
+
+.my-col-offset-11 {
+    margin-left: calc((100% / 12) * 11);
+}
+
+.my-col-offset-12 {
+    margin-left: 100%;
+}
