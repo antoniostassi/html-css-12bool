@@ -2,6 +2,16 @@
 /* Yes it is. */
 /* FOR REAL */
 
+.my-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+	
+[class*="my-col-"] {
+    flex: 0 0 auto;
+}
+
 /* Columns */
 
 .my-col-1 {
