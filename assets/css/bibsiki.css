@@ -7,7 +7,7 @@
     flex-wrap: wrap;
 }
 
-	
+/* Flex Grow 0 , Flex Shrink 0 */
 [class*="my-col-"] {
     flex: 0 0 auto;
 }
